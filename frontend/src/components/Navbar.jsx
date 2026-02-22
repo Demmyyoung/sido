@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="text-2xl font-black tracking-tighter text-black uppercase font-['Montserrat']">
-            DROPS
+            sido
           </Link>
           
           <div className="flex items-center space-x-8 text-[10px] font-bold uppercase tracking-[0.2em]">

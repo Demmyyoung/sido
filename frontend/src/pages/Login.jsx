@@ -49,7 +49,7 @@ export default function Login() {
             <label className="block text-[8px] font-black uppercase tracking-[0.4em] text-black/40 mb-2">Access Key (Email)</label>
             <input
               type="email"
-              placeholder="IDENTIFIER@DROPSNG.COM"
+              placeholder="IDENTIFIER@SIDO.COM"
               className="w-full bg-white border-b-2 border-black/5 px-6 py-4 text-sm font-bold focus:outline-none focus:border-black transition-all placeholder:text-black/5"
               value={identifier}
               onChange={(e) => setIdentifier(e.target.value)}

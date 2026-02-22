@@ -82,7 +82,7 @@ export default function Register() {
             <input 
               name="email" 
               type="email" 
-              placeholder="EMAIL@DROPSNG.COM"
+              placeholder="EMAIL@SIDO.COM"
               className="w-full bg-white border-b-2 border-black/5 px-6 py-4 text-sm font-bold focus:outline-none focus:border-black transition-all placeholder:text-black/5" 
               onChange={handleChange} 
               required 
