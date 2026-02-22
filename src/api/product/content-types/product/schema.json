@@ -42,6 +42,18 @@
       "relation": "manyToMany",
       "target": "api::order.order",
       "mappedBy": "products"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Tech",
+        "Audio",
+        "Gaming",
+        "Accessories",
+        "Appliance",
+        "Other"
+      ],
+      "default": "Other"
     }
   }
 }

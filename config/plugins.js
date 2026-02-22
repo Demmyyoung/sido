@@ -2,7 +2,12 @@ module.exports = ({ env }) => ({
   "users-permissions": {
     config: {
       register: {
-        allowedFields: ["is_seller", "shop_name"],
+        allowedFields: [
+          "is_seller",
+          "shop_name",
+          "bank_code",
+          "account_number",
+        ],
       },
     },
   },
